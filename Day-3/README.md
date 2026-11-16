@@ -6,7 +6,7 @@ Welcome to Day 3 of my React practice journey! This folder contains two hands-on
 
 ## 📂 Projects Overview
 
-### 1. [📝 Todo App](./src)
+### 1. [📝 Todo App](./ToDo)
 A clean, modular task manager featuring task creation, inline editing, status toggles, and dynamic filtering (**All**, **Active**, **Completed**) built using composed components and CSS Modules.
 
 - **Location**: Root directory (`./`)
