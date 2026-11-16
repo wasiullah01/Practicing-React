@@ -1,0 +1,113 @@
+.container {
+  display: grid;
+  gap: 20px;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.infoCard {
+  padding: 16px;
+  border: 1px solid #e8ebf2;
+  border-radius: 12px;
+  background: #f8f9ff;
+}
+
+.infoLabel {
+  display: block;
+  margin-bottom: 4px;
+  color: #7a8498;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.infoValue {
+  color: #1d2638;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.toggleRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  border: 1px solid #e8ebf2;
+  border-radius: 12px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.toggleText {
+  display: grid;
+  gap: 2px;
+}
+
+.toggleTitle {
+  color: #1d2638;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+
+.toggleHint {
+  color: #7a8498;
+  font-size: 0.84rem;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #6473e8;
+  cursor: pointer;
+}
+
+.tip {
+  margin: 0;
+  color: #7a8498;
+  font-size: 0.85rem;
+  text-align: center;
+}
+
+.kbd {
+  padding: 2px 6px;
+  border: 1px solid #dce1ec;
+  border-radius: 5px;
+  background: #f5f7fb;
+  color: #4a566c;
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.startButton {
+  width: 100%;
+  padding: 14px 20px;
+  border: 0;
+  border-radius: 10px;
+  background: #6473e8;
+  color: #ffffff;
+  cursor: pointer;
+  font: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: background-color 150ms ease, transform 120ms ease;
+}
+
+.startButton:hover {
+  background: #5362d5;
+}
+
+.startButton:active {
+  transform: scale(0.99);
+}
+
+@media (max-width: 460px) {
+  .infoGrid {
+    grid-template-columns: 1fr;
+  }
+}

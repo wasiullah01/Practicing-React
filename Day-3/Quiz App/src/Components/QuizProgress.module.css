@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step {
+  color: #7a8498;
+  font-size: 0.86rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.scoreBadge {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #eef0ff;
+  color: #4656c9;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.segments {
+  display: grid;
+  gap: 6px;
+  height: 6px;
+}
+
+.segment {
+  height: 100%;
+  border-radius: 999px;
+  background: #e2e6f0;
+  transition: background-color 200ms ease;
+}
+
+.active {
+  background: #6473e8;
+}
+
+.correct {
+  background: #22c55e;
+}
+
+.incorrect {
+  background: #d65b69;
+}
