@@ -1,0 +1,16 @@
+.card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 3px 10px #00000015;
+}
+
+.title {
+  color: #2563eb;
+}
+
+.content {
+  color: #333;
+}
