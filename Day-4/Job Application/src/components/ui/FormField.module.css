@@ -1,0 +1,54 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.labelRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1e293b;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.requiredAsterisk {
+  color: #e11d48;
+  font-weight: bold;
+}
+
+.controlWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.helperText {
+  font-size: 0.75rem;
+  color: #64748b;
+  margin-top: 0.15rem;
+}
+
+.errorMessage {
+  font-size: 0.75rem;
+  color: #e11d48;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin-top: 0.25rem;
+  font-weight: 500;
+}
+
+.errorIcon {
+  width: 13px;
+  height: 13px;
+  flex-shrink: 0;
+}

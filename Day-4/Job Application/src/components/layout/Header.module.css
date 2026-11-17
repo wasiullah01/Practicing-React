@@ -1,0 +1,109 @@
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.03);
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0.875rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  text-decoration: none;
+}
+
+.logoIcon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #0d9488 0%, #0369a1 100%);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 3px 8px rgba(13, 148, 136, 0.25);
+  flex-shrink: 0;
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.subtitle {
+  font-size: 0.775rem;
+  color: #64748b;
+  margin: 0;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.statusPill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background-color: #f0fdfa;
+  border: 1px solid #99f6e4;
+  color: #0f766e;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: 9999px;
+}
+
+.statusPillDot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #0d9488;
+}
+
+.countBadge {
+  background: #0f172a;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding: 0.75rem 1rem;
+  }
+  .subtitle {
+    display: none;
+  }
+  .statusPill {
+    display: none;
+  }
+}
