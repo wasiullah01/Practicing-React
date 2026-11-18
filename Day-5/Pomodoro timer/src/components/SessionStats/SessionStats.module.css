@@ -1,0 +1,73 @@
+.statsStrip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) auto;
+  gap: 1rem;
+  align-items: center;
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 768px) {
+  .statsStrip {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.statCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.dots {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  height: 28px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-subtle);
+  border: 2px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.activeDot {
+  background-color: var(--pomodoro-color);
+  border-color: var(--pomodoro-color);
+  box-shadow: 0 0 10px var(--pomodoro-glow);
+}
+
+.resetBtn {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  padding: 0.35rem 0.7rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-subtle);
+}
+
+.resetBtn:hover {
+  color: var(--text-main);
+  background: var(--bg-surface-hover);
+}

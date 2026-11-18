@@ -1,0 +1,139 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 0;
+}
+
+.circleWrapper {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  transform: rotate(-90deg);
+  width: 100%;
+  height: 100%;
+}
+
+.bgCircle {
+  fill: none;
+  stroke: var(--bg-subtle);
+  stroke-width: 14;
+}
+
+.progressCircle {
+  fill: none;
+  stroke-width: 14;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.4s ease, stroke 0.3s ease;
+}
+
+/* Theme accent per mode */
+.pomodoro .progressCircle {
+  stroke: var(--pomodoro-color);
+  filter: drop-shadow(0 0 8px var(--pomodoro-glow));
+}
+
+.shortBreak .progressCircle {
+  stroke: var(--shortBreak-color);
+  filter: drop-shadow(0 0 8px var(--shortBreak-glow));
+}
+
+.longBreak .progressCircle {
+  stroke: var(--longBreak-color);
+  filter: drop-shadow(0 0 8px var(--longBreak-glow));
+}
+
+.timeCenter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timeText {
+  font-family: var(--font-mono);
+  font-size: 3.75rem;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.04em;
+  user-select: none;
+}
+
+.statusBadge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mainBtn {
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 0.85rem 2.4rem;
+  border-radius: var(--radius-full);
+  transition: transform 0.15s ease, filter 0.15s ease, box-shadow 0.15s ease;
+  letter-spacing: 0.05em;
+}
+
+.mainBtn:hover {
+  transform: translateY(-2px);
+}
+
+.pomodoro .startBtn {
+  background-color: var(--pomodoro-color);
+  color: #fff;
+  box-shadow: 0 4px 20px var(--pomodoro-glow);
+}
+
+.shortBreak .startBtn {
+  background-color: var(--shortBreak-color);
+  color: #0f172a;
+  box-shadow: 0 4px 20px var(--shortBreak-glow);
+}
+
+.longBreak .startBtn {
+  background-color: var(--longBreak-color);
+  color: #fff;
+  box-shadow: 0 4px 20px var(--longBreak-glow);
+}
+
+.pauseBtn {
+  background-color: var(--bg-surface-hover);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+}
+
+.secondaryBtn {
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-full);
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  transition: all 0.15s ease;
+}
+
+.secondaryBtn:hover {
+  background-color: var(--bg-surface-hover);
+  color: var(--text-main);
+}

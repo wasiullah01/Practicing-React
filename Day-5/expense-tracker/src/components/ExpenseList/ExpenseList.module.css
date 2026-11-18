@@ -1,0 +1,152 @@
+.bodyCustom {
+  padding: 0;
+}
+
+.clearAllBtn {
+  font-size: 0.75rem;
+  color: var(--danger-text);
+  background-color: var(--danger-bg);
+  border: 1px solid var(--danger-border);
+  padding: 0.25rem 0.6rem;
+  border-radius: var(--radius-sm);
+  transition: all 0.15s ease;
+}
+
+.clearAllBtn:hover {
+  background-color: var(--danger);
+  color: #fff;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.15s ease;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item:hover {
+  background-color: var(--bg-surface-hover);
+}
+
+.categoryIconWrap {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  background-color: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.categoryIcon {
+  font-size: 1.25rem;
+}
+
+.itemDetails {
+  flex: 1;
+  min-width: 0;
+}
+
+.itemTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-main);
+  margin-bottom: 0.2rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.itemMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+
+.categoryBadge {
+  color: var(--text-muted);
+}
+
+.bullet {
+  color: var(--border-color);
+}
+
+.itemDate {
+  color: var(--text-muted);
+}
+
+.itemRight {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.itemAmount {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-main);
+  font-family: var(--font-mono);
+}
+
+.deleteBtn {
+  background: transparent;
+  color: var(--text-muted);
+  opacity: 0.6;
+  padding: 0.35rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  transition: all 0.15s ease;
+}
+
+.deleteBtn:hover {
+  opacity: 1;
+  background-color: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.emptyState {
+  padding: 3.5rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.emptyIcon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.8;
+}
+
+.emptyTitle {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.emptySubtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  max-width: 380px;
+}
+
+.footerTotal {
+  color: var(--text-main);
+}
