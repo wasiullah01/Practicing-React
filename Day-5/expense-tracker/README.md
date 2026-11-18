@@ -3,6 +3,9 @@
 A modern financial expense tracking dashboard built with **React**, **CSS Modules**, and **Component Composition**. Features automated budget threshold alerts, debounced search, category filtering, and browser `localStorage` persistence.
 
 ---
+![Expense Tracker screenshot](./image.png)
+
+---
 
 ## ✨ Features
 
