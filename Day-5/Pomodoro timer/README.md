@@ -3,7 +3,9 @@
 A focused productivity timer built with **React**, **CSS Modules**, and **Component Composition**. Designed around the standard Pomodoro Technique with automatic session transitions, circular SVG progress animations, focus task management, and built-in audio notifications.
 
 ---
+![Pomodoro Timer screenshot](./image.png)
 
+---
 ## ✨ Features
 
 - **Pomodoro Cycles:** Seamless switching between **Focus (25m)**, **Short Break (5m)**, and **Long Break (15m)** with automated progression after 4 completed sessions.
