@@ -1,10 +1,10 @@
-# ?? React Day 6 — Client-Side Routing & Multi-Page Apps
+#  React Day 6 â€” Client-Side Routing & Multi-Page Apps
 
 Welcome to **Day 6**! This directory contains two multi-page React applications built with **React Router v7** and **Tailwind CSS**, demonstrating modern client-side routing, nested layouts, URL query parameters, protected routes, and dynamic segments.
 
 ---
 
-## ?? Projects in This Folder
+##  Projects in This Folder
 
 | Directory | Project Name | Focus |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@ Welcome to **Day 6**! This directory contains two multi-page React applications 
 
 ---
 
-## 1. ??? Multi-Page Admin Dashboard (`/Multi Page admin Dashboard`)
+## 1.  Multi-Page Admin Dashboard (`/Multi Page admin Dashboard`)
 
 A comprehensive administrative control panel showcasing advanced enterprise dashboard routing patterns.
 
@@ -32,7 +32,7 @@ npm run dev
 
 ---
 
-## 2. ?? DevChronicles — Blog Reader (`/Blog Reader`)
+## 2.  DevChronicles â€” Blog Reader (`/Blog Reader`)
 
 A modern, fast technical blog reader designed around clean reader experiences and content discovery.
 
