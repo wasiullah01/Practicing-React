@@ -8,7 +8,7 @@ A fast, minimalist technical blog reader built with **React**, **React Router v7
 
 ---
 
-## ?? Folder Structure
+##  Folder Structure
 
 ```text
 Blog Reader/
@@ -40,7 +40,7 @@ Blog Reader/
 
 ---
 
-## ?? Routing Objectives Implemented
+##  Routing Objectives Implemented
 
 | Topic | File | How It Is Used |
 | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ Blog Reader/
 
 ---
 
-## ?? How to Run
+##  How to Run
 
 ```powershell
 cd "F:\React\Day-6\Blog Reader"
