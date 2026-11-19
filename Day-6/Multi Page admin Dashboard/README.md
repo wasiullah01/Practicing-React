@@ -4,7 +4,7 @@ A modern, responsive multi-page admin dashboard built with **React**, **React Ro
 
 ---
 
-![multipage admin dashboard screenshot](./video.mp4)
+![multipage admin dashboard screenshot](./image.png)
 
 ---
 ## 📁 Project Folder Structure
