@@ -4,7 +4,7 @@ A fast, minimalist technical blog reader built with **React**, **React Router v7
 
 ---
 
-![Blog reader screen](./video.mp4)
+![Blog reader screen](./image.png)
 
 ---
 
@@ -20,16 +20,16 @@ Blog Reader/
     +-- main.jsx                 # App root wrapped inside <BrowserRouter>
     +-- App.jsx                  # Route definitions (Routes, Route, nested Outlet)
     +-- index.css                # Global styling
-    ¦
+    Â¦
     +-- components/
-    ¦   +-- BlogLayout.jsx       # Layout shell with Header, Footer, and <Outlet />
-    ¦   +-- Header.jsx           # Top navbar using <NavLink> with active styling
-    ¦   +-- Footer.jsx           # Footer with routing navigation links
-    ¦   +-- Icons.jsx            # Lightweight SVG icon collection
-    ¦
+    Â¦   +-- BlogLayout.jsx       # Layout shell with Header, Footer, and <Outlet />
+    Â¦   +-- Header.jsx           # Top navbar using <NavLink> with active styling
+    Â¦   +-- Footer.jsx           # Footer with routing navigation links
+    Â¦   +-- Icons.jsx            # Lightweight SVG icon collection
+    Â¦
     +-- data/
-    ¦   +-- blogData.js          # Articles, author info, categories, and tags
-    ¦
+    Â¦   +-- blogData.js          # Articles, author info, categories, and tags
+    Â¦
     +-- pages/
         +-- HomeFeed.jsx         # Post feed with live filters via useSearchParams (?q=...&category=...)
         +-- PostDetail.jsx       # Dynamic post view via useParams (:slug) and useNavigate(-1)
