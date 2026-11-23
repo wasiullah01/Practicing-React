@@ -2,7 +2,7 @@
 
 Shelf is a product inventory dashboard for viewing and managing a product catalog. It is built with React, Tailwind CSS, and CSS modules.
 
-![screenshot of website].(./image.png)
+![screenshot of website](./image.png)
 
 ## Features
 
