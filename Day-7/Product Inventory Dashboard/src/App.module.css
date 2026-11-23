@@ -1,0 +1,54 @@
+.page {
+  background:
+    radial-gradient(ellipse at 82% 0%, rgba(16, 185, 129, 0.045), transparent 28rem),
+    #f8fafc;
+}
+
+.tableScroll {
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.table {
+  min-width: 760px;
+}
+
+.row {
+  height: 76px;
+}
+
+.thumb img {
+  transition: transform 180ms ease;
+}
+
+.row:hover .thumb img {
+  transform: scale(1.06);
+}
+
+.modalBackdrop {
+  animation: fade-in 150ms ease-out;
+}
+
+.modal {
+  animation: rise-in 180ms ease-out;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes rise-in {
+  from { opacity: 0; transform: translateY(8px) scale(0.99); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modalBackdrop,
+  .modal,
+  .thumb img {
+    animation: none;
+    transition: none;
+  }
+}

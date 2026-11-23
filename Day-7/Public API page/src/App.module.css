@@ -1,0 +1,33 @@
+.app {
+  background:
+    radial-gradient(ellipse at 82% 0%, rgba(16, 185, 129, 0.045), transparent 30rem),
+    #f8fafc;
+}
+
+.bookCard {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.coverFrame {
+  isolation: isolate;
+}
+
+.coverFrame::after {
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: inherit;
+  content: "";
+  pointer-events: none;
+}
+
+.detailCover {
+  isolation: isolate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bookCard * {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
