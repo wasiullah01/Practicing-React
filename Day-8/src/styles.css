@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  color: #20251f;
+  background: #f8f7f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #315b43;
+  outline-offset: 3px;
+}
+
+.locale-ur,
+.locale-ur * {
+  font-family: "Noto Nastaliq Urdu", "Noto Naskh Arabic", serif;
+}
+
+.locale-ur {
+  line-height: 1.9;
+}
+
+.locale-ur .brand-wordmark {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.locale-ur .font-display {
+  line-height: 1.7;
+}
+
+.locale-ur .field,
+.locale-ur .button-primary {
+  line-height: 1.8;
+}
+
+.locale-ur .directional-icon {
+  transform: scaleX(-1);
+}
+
+html[dir="rtl"] .hero-image-overlay {
+  background-image: linear-gradient(to left, #e8e9df, rgb(232 233 223 / 75%), transparent);
+}
+
+@media (max-width: 359px) {
+  .brand-wordmark {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@layer components {
+  .button-primary {
+    @apply inline-flex items-center gap-3 rounded-full bg-forest px-5 py-3.5 text-sm font-medium text-white transition hover:bg-ink focus:outline-none focus:ring-2 focus:ring-forest/40 focus:ring-offset-2;
+  }
+
+  .field {
+    @apply w-full rounded-xl border border-ink/15 bg-white px-4 py-3 text-sm outline-none transition placeholder:text-ink/35 focus:border-forest focus:ring-2 focus:ring-forest/10;
+  }
+}
