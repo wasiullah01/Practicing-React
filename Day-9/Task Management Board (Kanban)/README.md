@@ -1,7 +1,11 @@
 # Flowboard — Task Management Board
 
 A responsive Kanban board built with React, TypeScript, Vite, and Tailwind CSS. Tasks can be created, edited, deleted, filtered, searched, and moved across **To do**, **In progress**, **Review**, and **Done**. Board changes persist in browser local storage.
+---
 
+[! Screenshot](./image.png)
+
+---
 ## Run locally
 
 ```bash
