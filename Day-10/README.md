@@ -4,7 +4,7 @@ Peopleflow is a React, Vite, and TypeScript demo for employee onboarding, employ
 profiles, and leave requests. The interface uses Material UI, and forms use React
 Hook Form with built-in and custom validation.
 
-![Peopleflow dashboard](./image.png)
+![Peopleflow dashboard](./Image.png)
 
 ## What is included
 
