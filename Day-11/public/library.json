@@ -1,0 +1,41 @@
+{
+  "books": [
+    { "id": "b-101", "title": "The Creative Act", "author": "Rick Rubin", "category": "Creativity", "status": "Available", "cover": "bg-[#d9c8b3]", "symbol": "✳" },
+    { "id": "b-102", "title": "Tomorrow, and Tomorrow, and Tomorrow", "author": "Gabrielle Zevin", "category": "Fiction", "status": "Checked out", "cover": "bg-[#b8c6b0]", "symbol": "⌘" },
+    { "id": "b-103", "title": "Braiding Sweetgrass", "author": "Robin Wall Kimmerer", "category": "Nature", "status": "Available", "cover": "bg-[#d8b27d]", "symbol": "❋" },
+    { "id": "b-104", "title": "The House in the Cerulean Sea", "author": "TJ Klune", "category": "Fiction", "status": "Reserved", "cover": "bg-[#a9c7ce]", "symbol": "☼" },
+    { "id": "b-105", "title": "Ways of Seeing", "author": "John Berger", "category": "Art & Design", "status": "Available", "cover": "bg-[#d7aaa0]", "symbol": "◉" },
+    { "id": "b-106", "title": "A Field Guide to Getting Lost", "author": "Rebecca Solnit", "category": "Essays", "status": "Checked out", "cover": "bg-[#c6b9d1]", "symbol": "↗" }
+  ],
+  "members": [
+    { "id": "m-201", "name": "Amara Okafor", "email": "amara.okafor@email.com", "joined": "Nov 18, 2026", "borrowed": 3, "status": "Active", "initials": "AO", "color": "bg-[#e9d8c8] text-[#80513b]", "history": [
+      { "id": "h-201", "bookId": "b-101", "title": "The Creative Act", "author": "Rick Rubin", "borrowedOn": "2026-11-12", "dueDate": "2026-11-26", "status": "Borrowed" },
+      { "id": "h-202", "bookId": "b-103", "title": "Braiding Sweetgrass", "author": "Robin Wall Kimmerer", "borrowedOn": "2026-11-18", "dueDate": "2026-12-02", "status": "Borrowed" },
+      { "id": "h-203", "bookId": "b-105", "title": "Ways of Seeing", "author": "John Berger", "borrowedOn": "2026-11-20", "dueDate": "2026-12-04", "status": "Borrowed" }
+    ] },
+    { "id": "m-202", "name": "Theo Bennett", "email": "theo.b@email.com", "joined": "Nov 12, 2026", "borrowed": 1, "status": "Active", "initials": "TB", "color": "bg-[#d8e6d9] text-[#42644c]", "history": [
+      { "id": "h-204", "bookId": "b-104", "title": "The House in the Cerulean Sea", "author": "TJ Klune", "borrowedOn": "2026-10-10", "dueDate": "2026-10-24", "returnedOn": "2026-10-21", "status": "Returned" },
+      { "id": "h-205", "bookId": "b-102", "title": "Tomorrow, and Tomorrow, and Tomorrow", "author": "Gabrielle Zevin", "borrowedOn": "2026-11-20", "dueDate": "2026-12-04", "status": "Borrowed" }
+    ] },
+    { "id": "m-203", "name": "Mina Park", "email": "mina.park@email.com", "joined": "Oct 29, 2026", "borrowed": 2, "status": "Active", "initials": "MP", "color": "bg-[#e8dff0] text-[#705c84]", "history": [
+      { "id": "h-206", "bookId": "b-105", "title": "Ways of Seeing", "author": "John Berger", "borrowedOn": "2026-10-12", "dueDate": "2026-10-26", "returnedOn": "2026-10-22", "status": "Returned" },
+      { "id": "h-207", "bookId": "b-103", "title": "Braiding Sweetgrass", "author": "Robin Wall Kimmerer", "borrowedOn": "2026-11-22", "dueDate": "2026-12-06", "status": "Borrowed" },
+      { "id": "h-208", "bookId": "b-106", "title": "A Field Guide to Getting Lost", "author": "Rebecca Solnit", "borrowedOn": "2026-11-15", "dueDate": "2026-11-29", "status": "Borrowed" }
+    ] },
+    { "id": "m-204", "name": "Jules Rivera", "email": "jules.r@email.com", "joined": "Oct 21, 2026", "borrowed": 0, "status": "Active", "initials": "JR", "color": "bg-[#f0dfc5] text-[#85663d]", "history": [
+      { "id": "h-209", "bookId": "b-101", "title": "The Creative Act", "author": "Rick Rubin", "borrowedOn": "2026-10-01", "dueDate": "2026-10-15", "returnedOn": "2026-10-10", "status": "Returned" }
+    ] },
+    { "id": "m-205", "name": "Elliot James", "email": "elliot.j@email.com", "joined": "Oct 15, 2026", "borrowed": 4, "status": "Inactive", "initials": "EJ", "color": "bg-[#d9e3eb] text-[#506578]", "history": [
+      { "id": "h-210", "bookId": "b-101", "title": "The Creative Act", "author": "Rick Rubin", "borrowedOn": "2026-10-10", "dueDate": "2026-10-24", "status": "Overdue" },
+      { "id": "h-211", "bookId": "b-102", "title": "Tomorrow, and Tomorrow, and Tomorrow", "author": "Gabrielle Zevin", "borrowedOn": "2026-10-12", "dueDate": "2026-10-26", "status": "Overdue" },
+      { "id": "h-212", "bookId": "b-103", "title": "Braiding Sweetgrass", "author": "Robin Wall Kimmerer", "borrowedOn": "2026-10-14", "dueDate": "2026-10-28", "status": "Overdue" },
+      { "id": "h-213", "bookId": "b-106", "title": "A Field Guide to Getting Lost", "author": "Rebecca Solnit", "borrowedOn": "2026-10-18", "dueDate": "2026-11-01", "status": "Overdue" }
+    ] }
+  ],
+  "appointments": [
+    { "id": "a-301", "member": "Amara Okafor", "purpose": "Book pickup", "date": "2026-11-26", "time": "09:30", "status": "Confirmed", "initials": "AO", "color": "bg-[#e9d8c8] text-[#80513b]" },
+    { "id": "a-302", "member": "Theo Bennett", "purpose": "Reading room", "date": "2026-11-26", "time": "11:00", "status": "Confirmed", "initials": "TB", "color": "bg-[#d8e6d9] text-[#42644c]" },
+    { "id": "a-303", "member": "Mina Park", "purpose": "Research help", "date": "2026-11-26", "time": "13:30", "status": "Pending", "initials": "MP", "color": "bg-[#e8dff0] text-[#705c84]" },
+    { "id": "a-304", "member": "Jules Rivera", "purpose": "Book return", "date": "2026-11-27", "time": "10:00", "status": "Confirmed", "initials": "JR", "color": "bg-[#f0dfc5] text-[#85663d]" }
+  ]
+}
